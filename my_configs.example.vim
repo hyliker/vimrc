@@ -71,3 +71,10 @@ endfunction
 
 "Remap the tab key to select action with InsertTabWrapper
 inoremap <TAB> <C-R>=InsertTabWrapper()<CR>
+
+set list listchars=tab:→\ ,trail:·
+
+"encoding settings
+set fileencodings=utf-8,ucs-bom,gb18030,gbk,gb2312,cp936
+set termencoding=utf-8
+set encoding=utf-8
